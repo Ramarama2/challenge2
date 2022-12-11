@@ -1,0 +1,182 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+} 
+
+body {
+    background-color: #f2ece4;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    
+}
+
+.logo {
+    cursor: pointer;
+
+}
+.menu {
+    opacity: 0;
+}
+.navbar {
+    padding-top: 2%;
+}
+
+.navbar ul {
+    list-style: none;
+}
+.navbar ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #89857f;
+}
+
+.cta {
+    padding: 0px 10px;
+}
+.cta a {
+    text-decoration: none;
+    color: #89857f;
+    padding: 0px 10px;
+}
+
+.cta a button {
+    font-size: 16px;
+    padding: 10px 18px;
+    border-radius: 5px;
+    color: white;
+    background-color:#143316 ;
+    border: 1px solid black;
+} 
+
+@media(max-width:750px){
+    .navbar ul {
+        display: none;
+    }
+
+    .cta {
+        display: none;
+    }
+    .menu {
+        opacity: 1;
+        margin-left: 60%;
+    }
+
+}
+
+/* end navbar */
+
+.sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0% 0 10%;
+    position: relative;
+}
+
+.sec .write h1 {
+    color: black;
+    font-size: 300%;
+    
+}
+
+#ff {
+    color: #F3AF17 ;
+}
+
+.sec .write p {
+    color: #89857f;
+}
+
+.sec .write button {
+    font-size: 16px;
+    padding: 10px 18px;
+    border-radius: 5px;
+    color: white;
+    background-color:#143316 ;
+    border: 1px solid black;
+
+}
+
+.sec .dov {
+    position: absolute;
+    top: 100%;
+    display: flex;
+}
+
+.sec .dov p {
+    color: #89857f;
+}
+
+.sec .dov img {
+    padding: 8px;
+}
+
+.sec .img img {
+    margin-left: 20%;
+}
+
+@media(max-width:750px) {
+    .sec {
+        position: relative;
+    }
+    .sec .img {
+        display: none;
+    }
+
+    .sec .write h1 {
+        color: black;
+        font-size: 220%;
+        
+    }    
+
+    .sec .dov {
+        position: absolute;
+        top: 104%;
+        display: flex;
+    }
+    
+}
+
+/* end section 1 */
+
+
+.pargragh {
+    margin: 5% 0% 0 37%;
+
+}
+.pargragh p {
+    color: #89857f;
+}
+
+.image .four {
+    margin-left: 15%;
+    
+}
+.image .four img {
+    padding: 2%;
+}
+
+@media(max-width:750px) {
+    .image .four {
+        margin-right: 40px;
+    }
+    .image .four img {
+        width: 49%;
+        
+    }
+    .pargragh {
+        margin: 60px 0 0 30px;
+}
+}
+
